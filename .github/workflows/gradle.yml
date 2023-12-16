@@ -33,3 +33,9 @@ jobs:
         uses: gradle/gradle-build-action@v2
         with:
           arguments: test
+      - name: Run Trivy vulnerability scanner in fs mode
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'fs'
+          scan-ref: '.'
+          trivy-config: trivy.yaml
