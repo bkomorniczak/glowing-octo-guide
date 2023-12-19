@@ -48,7 +48,7 @@ Pull requests needs to be approved by code owners. After you are ready to merge 
 Code owner will review your changes, add comments, or just approve. After approve, you can merge the PR.
 
 The are also automatic code reviewers:
-#### Super-Linter: used for checking code style.
+#### Super-Linter: used for checking code style
 #### Trivy: used for scanning code for vulnerabilities
 
 They need pass. Without it you won't be able to merge.
