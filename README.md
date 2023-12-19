@@ -1,7 +1,7 @@
 # glowing-octo-guide
 [![Java CI with Gradle](https://github.com/bkomorniczak/glowing-octo-guide/actions/workflows/gradle.yml/badge.svg)](https://github.com/bkomorniczak/glowing-octo-guide/actions/workflows/gradle.yml) [![Super-Linter](https://github.com/bkomorniczak/glowing-octo-guide/actions/workflows/linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-## Development enviroment description:
+## Development enviroment description
 In our development workflow, we leverage GitHub Actions as the foundation for our Continuous Integration (CI) process. The CI pipeline encompasses various tasks aimed at ensuring the reliability and quality of our codebase. The following key components are integral to our CI setup:
 ### Gradle build task
 Our Gradle build task is a fundamental step in the CI process. Gradle is used to compile, assemble, and package our Java-based projects. This ensures that the code is correctly compiled and can be executed in the intended environment.
