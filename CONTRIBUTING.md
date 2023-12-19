@@ -16,11 +16,11 @@ Just in case, before creating new branch type: `git pull`
 Sometimes, someone makes changes to main when you are working on your changes. Than you need to rebase.
 
 `git rebase main`
-If it passes, you can proceed with your changes. 
+If it passes, you can proceed with your changes.
 The can be conflicts. You need to resolve them, and then `git rebase --continue`
 Important: you will need to add -f flag when pushing: `git push -f`
 
-In terminal in your IDE (or not in your IDE if you are feeling geek) type 
+In terminal in your IDE (or not in your IDE if you are feeling geek) type:
 
 `git checkout -b <YOUR_BRANCH_NAME>`
 
@@ -43,15 +43,12 @@ Change <YOUR_BRANCH_NAME> to your branch name. You need to do it like this only 
 
 In terminal there will be log with link to PR creation. Click on it. Create PR.
 
-
-
 ### Pull requests
-
-Pull requests needs to be approved by code owners. After you are ready to merge your PR let us know in Discord channel. 
+Pull requests needs to be approved by code owners. After you are ready to merge your PR let us know in Discord channel.
 Code owner will review your changes, add comments, or just approve. After approve, you can merge the PR.
 
 The are also automatic code reviewers:
-#### Super-Linter: used for checking code style. 
+#### Super-Linter: used for checking code style.
 #### Trivy: used for scanning code for vulnerabilities
 
 They need pass. Without it you won't be able to merge.
