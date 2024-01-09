@@ -9,3 +9,7 @@
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
 L
 .github/workflows/gradle.yml,c/3/c36c878e4a824e41b1b476ece36b9a80ca94ffec
+A
+gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
+L
+src/main/java/AIMobsMod.java,2/1/213fa6c8cbe02bd02337f923b33ca44e2fd90044
