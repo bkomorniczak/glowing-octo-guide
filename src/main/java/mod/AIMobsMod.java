@@ -1,10 +1,11 @@
+ /**
+ * Mod initializing class
+  * <p>Add description here</p>
+ */
 package mod;
 
 import net.fabricmc.api.ClientModInitializer;
 
-/**
- * Mod initializing class
- */
 public class AIMobsMod implements ClientModInitializer {
 
   @Override
