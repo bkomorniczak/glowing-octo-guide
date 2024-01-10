@@ -3,6 +3,7 @@ from transformers import BlenderbotTokenizer, BlenderbotForConditionalGeneration
 import os
 import logging
 
+
 app = Flask(__name__)
 
 # Define model name and path
@@ -15,6 +16,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 # Function to check for the existence of the model and download it if necessary
 def load_or_download_model(m_name, m_dir):
+
     if not os.path.exists(m_dir):
         os.makedirs(m_dir)
         logging.debug(f"Downloading model {m_name} to {m_dir}...")
@@ -36,6 +38,7 @@ model, tokenizer = load_or_download_model(model_name, model_dir)
 
 @app.route("/ask", methods=["POST"])
 def ask():
+
     try:
         # Get the question from the request
         data = request.json
