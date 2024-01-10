@@ -41,5 +41,10 @@
       <option name="name" value="LoomLocalMinecraft" />
       <option name="url" value="file:$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="Sponge / Mixin" />
+      <option name="name" value="Sponge / Mixin" />
+      <option name="url" value="https://repo.spongepowered.org/repository/maven-public/" />
+    </remote-repository>
   </component>
 </project>

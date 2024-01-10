@@ -6,6 +6,21 @@
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
     </content>
   </component>
+  <component name="FacetManager">
+    <facet type="minecraft" name="Minecraft">
+      <configuration>
+        <autoDetectTypes>
+          <platformType>MIXIN</platformType>
+          <platformType>MCP</platformType>
+          <platformType>FABRIC</platformType>
+        </autoDetectTypes>
+        <projectReimportVersion>1</projectReimportVersion>
+      </configuration>
+    </facet>
+  </component>
+  <component name="McpModuleSettings">
+    <option name="srgType" value="SRG" />
+  </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="91a16082-71a9-4100-9e30-9cb46100eb32" />
   </component>
