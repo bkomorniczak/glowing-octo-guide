@@ -1,4 +1,4 @@
 /**
- * Package containing mod related classes
+ * Package containing mod related classes.
  */
 package mod;

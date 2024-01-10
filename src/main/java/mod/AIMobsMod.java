@@ -1,6 +1,6 @@
- /**
+/**
  * Mod initializing class
-  * <p>Add description here</p>
+ * <p>Add description here</p>
  */
 package mod;
 
