@@ -2,8 +2,7 @@ import logging
 import os
 
 from flask import Flask, jsonify, request
-from transformers import (BlenderbotForConditionalGeneration,
-                          BlenderbotTokenizer)
+from transformers import BlenderbotForConditionalGeneration, BlenderbotTokenizer
 
 app = Flask(__name__)
 
