@@ -15,3 +15,5 @@ L
 src/main/java/AIMobsMod.java,2/1/213fa6c8cbe02bd02337f923b33ca44e2fd90044
 P
  src/main/java/mod/AIMobsMod.java,0/4/0404ff023f89ba634b627e112506e0d19abb8a8a
+S
+#src/main/java/mod/package-info.java,3/1/319c5f67c6fb5781b90c962685b67ceebd4a580a
