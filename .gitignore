@@ -3,7 +3,5 @@
 
 # Ignore Gradle build output directory
 build
-.idea/modules.xml
-.idea/misc.xml
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/glowing-octo-guide.iml
+.idea/
+flask_server/blenderbot-400M-distill/
