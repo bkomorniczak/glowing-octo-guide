@@ -11,16 +11,16 @@ base {
 repositories {
     mavenCentral()
 }
+
 loom {
     splitEnvironmentSourceSets()
 
     mods {
-        "modid" {
+        'modid' {
             sourceSet sourceSets.main
             sourceSet sourceSets.client
         }
     }
-
 }
 
 dependencies {
@@ -33,16 +33,17 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
     // Uncomment the following line to enable the deprecated Fabric API modules.
-    // These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
+    // These are included in the Fabric API production distribution
+    // and allow you to update your mod to the latest modules at a later more convenient time.
 
     // modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
 }
 
 processResources {
-    inputs.property "version", project.version
+    inputs.property 'version', project.version
 
-    filesMatching("fabric.mod.json") {
-        expand "version": project.version
+    filesMatching('fabric.mod.json') {
+        expand 'version': project.version
     }
 }
 tasks.withType(JavaCompile).configureEach {
@@ -60,7 +61,7 @@ java {
 }
 
 jar {
-    from("LICENSE") {
+    from('LICENSE') {
         rename { "${it}_${project.base.archivesName.get()}" }
     }
 }
@@ -73,6 +74,5 @@ publishing {
         }
     }
     repositories {
-
     }
 }
