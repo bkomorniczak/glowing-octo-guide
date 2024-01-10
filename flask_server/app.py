@@ -34,24 +34,23 @@ def load_or_download_model(m_name, m_dir):
 model, tokenizer = load_or_download_model(model_name, model_dir)
 
 
-@app.route('/ask', methods=['POST'])
+@app.route("/ask", methods=["POST"])
 def ask():
     try:
         # Get the question from the request
         data = request.json
-        question = data['question']
+        question = data["question"]
 
         # Process the question through the model
-        inputs = tokenizer(question, return_tensors='pt')
+        inputs = tokenizer(question, return_tensors="pt")
         reply_ids = model.generate(**inputs)
         answer = tokenizer.decode(reply_ids[0], skip_special_tokens=True)
 
         # Return the answer
-        return jsonify({'answer': answer})
+        return jsonify({"answer": answer})
     except Exception as e:
         logging.error(str(e))
-        return jsonify({'error': str(e)})
+        return jsonify({"error": str(e)})
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
