@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[48,)"
+license="All rights reserved"
+[[mods]]
+modId="flasknlpchat"
+version="0.3.0" # wersja modu
+displayName="FlaskNLPChat Mod"
+description='''
+Interakcja z sztuczną inteligencją w Minecraft za pomocą Flask i NLP.
+'''
+authors="Imiona"
+credits="Podziękowania"
+logoFile="ścieżka/do/logo.png"
+
+[[dependencies.flasknlpchat]]
+modId="forge"
+mandatory=true
+versionRange="[48,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.flasknlpchat]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.2]"
+ordering="NONE"
+side="BOTH"
