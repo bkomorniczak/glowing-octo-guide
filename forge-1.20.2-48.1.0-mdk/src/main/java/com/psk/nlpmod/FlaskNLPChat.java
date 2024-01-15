@@ -1,32 +1,34 @@
 package com.psk.nlpmod;
 
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.common.MinecraftForge;
-import org.slf4j.Logger;
-import com.mojang.logging.LogUtils;
 
-@Mod(FlaskNLPChatMod.MODID)
-public class FlaskNLPChatMod {
+@Mod(FlaskNLPChat.MODID)
+public class FlaskNLPChat {
 
     public static final String MODID = "flasknlpchat";
-    private static final Logger LOGGER = LogUtils.getLogger();
 
-    public FlaskNLPChatMod() {
+    public FlaskNLPChat() {
+        // Register setup method to be called during mod loading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        // Register this mod's event handler with MinecraftForge
         MinecraftForge.EVENT_BUS.register(this);
-        MinecraftForge.EVENT_BUS.register(NLPChatCommand.class); // Rejestruje NLPChatCommand
+        // Register NLPChatCommand to handle commands
+        MinecraftForge.EVENT_BUS.register(NLPChatCommand.class);
+        // Load configuration settings from API
+        ApiConfig.loadConfig();
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        // Konfiguracja wspólna
+        // Common setup configuration
     }
 
     @SubscribeEvent
     public void onClientSetup(FMLClientSetupEvent event) {
-        // Konfiguracja klienta
+        // Client setup configuration
     }
 }
