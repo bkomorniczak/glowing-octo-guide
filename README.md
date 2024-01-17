@@ -19,7 +19,7 @@ Before you begin the installation process, ensure that you have Java 17 installe
 ## Setting Up the Project
 To make the installation process as straightforward as possible, we have created a Gradle build task. This task simplifies the process, allowing you to set up and run the project with a single command. Here are the steps to get everything up and running:
 ### Clone the Repository:
-First, clone the project repository to your local machine using Git. You can do this by running the following command in your terminal:
+First, clone the project repository to your local machine using Git. You can do this by running the following command in your terminal.
 
 ![git](git.gif)
 
