@@ -10,14 +10,15 @@ Welcome to our project, "Chat-bot Implementation using NLP Models in an Embedded
 
 Our team has successfully integrated state-of-the-art NLP models from Hugging Face into the Minecraft environment, enabling dynamic and intelligent conversations between players and the game's NPCs (Non-Player Characters). This integration is powered by a robust Flask server, which acts as a conduit between the Hugging Face models and the Java-based Minecraft game.
 
-This unique blend of technologies not only enhances the gameplay experience by allowing for more realistic and responsive interactions but also serves as a practical demonstration of the capabilities of embedded NLP models in a gaming context. The project showcases the potential of modern NLP techniques in enhancing user experience in virtual environments, paving the way for more intuitive and human-like interactions in games.
+This unique blend of technologies not only enhances the gameplay experience by allowing for more realistic and responsive interactions but also serves as a practical demonstration of the capabilities of embedded NLP models in a gaming context. 
+The project showcases the potential of modern NLP techniques in enhancing user experience in virtual environments, paving the way for more intuitive and human-like interactions in games.
 
 Through this README, we aim to provide a comprehensive guide on how our project was conceived, developed, and can be implemented by others interested in exploring the intersection of NLP and gaming. We hope this project inspires further innovation in the field and serves as a valuable learning resource for students and developers alike.
 
 ## Prerequisites
 Before you begin the installation process, ensure that you have Java 17 installed on your system. Java 17 is essential for running the Minecraft server and the chat-bot application. If you do not have Java 17 installed, you can download it from the official Java site.
 ## Setting Up the Project
-To make the installation process as straightforward as possible, we have created a Gradle build task. This task simplifies the process, allowing you to set up and run the project with a single command. Here are the steps to get everything up and running:
+To make the installation process as straightforward as possible, we have created a Gradle build task. This task simplifies the process, allowing you to set up and run the project with a single command. Here are the steps to get everything up and running.
 ### Clone the Repository:
 First, clone the project repository to your local machine using Git. You can do this by running the following command in your terminal.
 
