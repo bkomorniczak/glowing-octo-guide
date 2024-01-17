@@ -1,8 +1,11 @@
 # Chat-bot implementation using NLP models in an embedded environment
 [![Java CI with Gradle](https://github.com/bkomorniczak/glowing-octo-guide/actions/workflows/gradle.yml/badge.svg)](https://github.com/bkomorniczak/glowing-octo-guide/actions/workflows/gradle.yml) [![Super-Linter](https://github.com/bkomorniczak/glowing-octo-guide/actions/workflows/linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 ![img.png](img.png)
 
 # Introduction
+![Hello](hello.gif)
+
 Welcome to our project, "Chat-bot Implementation using NLP Models in an Embedded Environment", developed as a part of our coursework for the Defensive Programming course. This innovative project bridges the gap between advanced Natural Language Processing (NLP) models and the immersive world of Minecraft, creating an engaging and interactive gaming experience.
 
 Our team has successfully integrated state-of-the-art NLP models from Hugging Face into the Minecraft environment, enabling dynamic and intelligent conversations between players and the game's NPCs (Non-Player Characters). This integration is powered by a robust Flask server, which acts as a conduit between the Hugging Face models and the Java-based Minecraft game.
@@ -18,6 +21,8 @@ To make the installation process as straightforward as possible, we have created
 
 ## Clone the Repository:
 First, clone the project repository to your local machine using Git. You can do this by running the following command in your terminal:
+
+![git](git.gif)
 
 `git clone git@github.com:bkomorniczak/glowing-octo-guide.git`
 ## Navigate to repository
@@ -36,10 +41,13 @@ In our development workflow, we leverage GitHub Actions as the foundation for ou
 Our Gradle build task is a fundamental step in the CI process. Gradle is used to compile, assemble, and package our Java-based projects. This ensures that the code is correctly compiled and can be executed in the intended environment.
 ### Gradle test task
 Testing is a crucial aspect of our development process, and the Gradle test task plays a pivotal role in this regard. We execute a comprehensive suite of tests to validate the functionality, performance, and reliability of our code. This task ensures that the application behaves as expected and that any changes introduced do not introduce regressions.
-### Super-Linter
-Maintaining a consistent and high-quality code style across our projects is vital. The Super-Linter is employed to analyze and enforce coding standards, ensuring uniformity in our codebase. This linter supports multiple languages, providing a comprehensive check for code quality and style adherence.
 ### Trivy
 Security is a top priority in our development process. Trivy, a comprehensive vulnerability scanner for containers and applications, is integrated into our CI pipeline. It helps us identify and address potential security issues in dependencies, ensuring that our software is robust and resilient to security threats.
+
+Those steps are described in [gradle.yml](.github/workflows/gradle.yml).
+### Super-Linter
+Maintaining a consistent and high-quality code style across our projects is vital. The Super-Linter is employed to analyze and enforce coding standards, ensuring uniformity in our codebase. This linter supports multiple languages, providing a comprehensive check for code quality and style adherence.
+This step is described in [Linter.yml](.github/workflows/linter.yml) workflow.
 
 These components collectively contribute to a robust CI environment that promotes code reliability, consistency, and security throughout the development lifecycle. As we continue to evolve our processes, these tools play a crucial role in maintaining the high standards we set for our projects.
 
