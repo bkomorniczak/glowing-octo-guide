@@ -8,7 +8,7 @@
 
 Welcome to our project, "Chat-bot Implementation using NLP Models in an Embedded Environment", developed as a part of our coursework for the Defensive Programming course. This innovative project bridges the gap between advanced Natural Language Processing (NLP) models and the immersive world of Minecraft, creating an engaging and interactive gaming experience.
 Our team has successfully integrated state-of-the-art NLP models from Hugging Face into the Minecraft environment, enabling dynamic and intelligent conversations between players and the game's NPCs (Non-Player Characters). This integration is powered by a robust Flask server, which acts as a conduit between the Hugging Face models and the Java-based Minecraft game.
-This unique blend of technologies not only enhances the gameplay experience by allowing for more realistic and responsive interactions but also serves as a practical demonstration of the capabilities of embedded NLP models in a gaming context. 
+This unique blend of technologies not only enhances the gameplay experience by allowing for more realistic and responsive interactions but also serves as a practical demonstration of the capabilities of embedded NLP models in a gaming context.
 The project showcases the potential of modern NLP techniques in enhancing user experience in virtual environments, paving the way for more intuitive and human-like interactions in games.
 Through this README, we aim to provide a comprehensive guide on how our project was conceived, developed, and can be implemented by others interested in exploring the intersection of NLP and gaming. We hope this project inspires further innovation in the field and serves as a valuable learning resource for students and developers alike.
 
@@ -16,7 +16,7 @@ Through this README, we aim to provide a comprehensive guide on how our project 
 Before you begin the installation process, ensure that you have Java 17 installed on your system. Java 17 is essential for running the Minecraft server and the chat-bot application. If you do not have Java 17 installed, you can download it from the official Java site.
 ## Setting Up the Project
 To make the installation process as straightforward as possible, we have created a Gradle build task. This task simplifies the process, allowing you to set up and run the project with a single command. Here are the steps to get everything up and running.
-### Clone the Repository:
+### Clone the Repository
 First, clone the project repository to your local machine using Git. You can do this by running the following command in your terminal.
 
 ![git](git.gif)
@@ -70,16 +70,16 @@ Here is a little presentation of gameplay:
 
 ### Development Perspectives and Potential Improvements
 
-Our project, which combines Minecraft with Flask and NLP, offers numerous possibilities for development and enhancements. 
+Our project, which combines Minecraft with Flask and NLP, offers numerous possibilities for development and enhancements.
 Here are a few suggestions that we couldn't implement due to strict project deadlines.
 #### Adding Voice Responses to Mobs
-- **Integration of Speech Synthesis:** Implementing a text-to-speech (TTS) engine that converts NLP text responses into voice. 
+- **Integration of Speech Synthesis:** Implementing a text-to-speech (TTS) engine that converts NLP text responses into voice.
 This would allow for more interactive and engaging in-game experiences, with mobs responding vocally to player queries.
 - **Voice Personalization:** The ability to customize voices for different types of mobs, which would enhance immersion and diversify the gaming experience.
 - **Contextual Reactions:** Developing the NLP system to allow mobs to react with different voice tones depending on the context of the interaction,
 e.g., friendly tones during peaceful interactions and aggressive in conflict situations.
 #### Supporting More Languages in NLP
-- **NLP Expansion:** Adding support for multiple languages in the NLP model, enabling interactions in various languages. 
+- **NLP Expansion:** Adding support for multiple languages in the NLP model, enabling interactions in various languages.
 This would increase the mod's accessibility and universality, allowing players from different regions to use it in their native language.
 - **Automatic Language Detection:** Implementing a feature for automatic detection of the language of queries, which would streamline player interactions regardless of the language used.
 #### Adapting to a Wider Range of APIs than Just Flask Endpoints
