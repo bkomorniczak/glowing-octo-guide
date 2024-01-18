@@ -27,7 +27,7 @@
  - 48.0.34 Improve mod description formatting in mods screen (#9768)
  - 48.0.33 Fix lowcode implementation version, now that it's actually labeling the correct package.
  - 48.0.32 Buildscript cleanup and organization.
-           Updated to use newer libraries that reduce the command line arguments needed to run the game.
+           Updated to use newer libraries that reduce the command-line arguments needed to run the game.
            Fix issues in the SecureModule's classloader that caused resources to not be seen when they are on parent module layers.
  - 48.0.31 Fix @GameTestGenerator not functioning correctly. Closes #9748
  - 48.0.30 Optimise registries by using fastutils collections to minimize boxing.  (#9749)
@@ -35,9 +35,9 @@
  - 48.0.28 Improve mod loading error message for errors inside mod constructors (#9751)
  - 48.0.27 Add a CrashReportAnalyser that tries to identify the mod that crashed the game (#9732)
  - 48.0.26 Fix potential threading issue when registering CriteriaTriggers. Closes #9745
- - 48.0.25 Move to a cache based crowdin solution instead of hitting the api every build.
+ - 48.0.25 Move to a cache based crowdin solution instead of hitting the API every build.
  - 48.0.24 Fix Melon/Pumpkin stems having wrong plat type causing them to remain after trampling farmland. Fixes #9495
- - 48.0.23 Fix loot tables not having their ids set.
+ - 48.0.23 Fix loot tables not having their IDs set.
  - 48.0.22 Make horses and llama's fire LivingFallEvent. Fixes #9743
  - 48.0.21 Fix advancement screen being too dark. Fixes #9727
  - 48.0.20 Fix ConditionalCodec having an inverted test. Closes #9742
