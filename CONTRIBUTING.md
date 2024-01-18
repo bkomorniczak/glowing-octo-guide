@@ -47,7 +47,7 @@ In terminal there will be log with link to PR creation. Click on it. Create PR.
 Pull requests needs to be approved by code owners. After you are ready to merge your PR let us know in Discord channel.
 Code owner will review your changes, add comments, or just approve. After approve, you can merge the PR.
 
-The are also automatic code reviewers:
+There are also automatic code reviewers
 #### Super-Linter: used for checking code style
 #### Trivy: used for scanning code for vulnerabilities
 
