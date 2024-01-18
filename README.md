@@ -35,6 +35,19 @@ To run the project, execute the following command in the project's root director
 `./gradlew runAll`
 
 This command will trigger the Gradle build task that we have set up. It takes care of compiling the code, setting up the necessary dependencies, and starting the Minecraft server.
+
+## Interaction with NLPs
+Integrating with mobs in our modification is now even simpler! Just hold down the Shift key and left-click on a mob, then chat with them freely using the Flask endpoint API.
+### Mod commands
+- **/nlpchat** - Display the main menu
+- **/nlpchat ask "query"** - Ask a question to the AI
+- **/nlpchat enable** - Enable the listening status for NLP chat
+- **/nlpchat disable** - Disable the listening status for NLP chat
+- **/nlpchat reset** - Resets the current settings to default
+- **/nlpchat getToken** - Retrieves the current authentication token
+- **/nlpchat setApiUrl "url"** - Sets the NLP API endpoint URL
+- **/nlpchat setToken "key" "value"** - Sets the NLP API authentication token
+- **/nlpchat help** - Display this help message"""), false);
 ## Development environment description
 In our development workflow, we leverage GitHub Actions as the foundation for our Continuous Integration (CI) process. The CI pipeline encompasses various tasks aimed at ensuring the reliability and quality of our codebase. The following key components are integral to our CI setup:
 ### Gradle build task
