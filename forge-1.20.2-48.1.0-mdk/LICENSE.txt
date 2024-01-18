@@ -361,7 +361,7 @@ of these things:
     to use the modified definitions.)
 
     b) Use a suitable shared library mechanism for linking with the
-    Library.  A suitable mechanism is one that (1) uses at run time a
+    Library.  A suitable mechanism is one that (1) uses at runtime a
     copy of the library already present on the user's computer system,
     rather than copying library functions into the executable, and (2)
     will operate properly with a modified version of the library, if
@@ -460,7 +460,7 @@ integrity of the free software distribution system which is
 implemented by public license practices.  Many people have made
 generous contributions to the wide range of software distributed
 through that system in reliance on consistent application of that
-system; it is up to the author/donor to decide if he or she is willing
+system; it is up to the author/donor to decide if they is willing
 to distribute software through any other system and a licensee cannot
 impose that choice.
 
