@@ -12,7 +12,7 @@ Interaction with artificial intelligence in Minecraft using Flask and NLP.
 '''
 authors="Rafał Gajos, Natalia Brzezińska, Barbara Komorniczak, Grzegorz Karkowski"
 credits="Special thanks to Mr. Michał Młodawski for inspiring us to create this modification."
-logoFile= "logo.png"
+logoFile= "logo_new.png"
 
 [[dependencies.flasknlpchat]]
 modId="forge"
