@@ -7,12 +7,9 @@
 ![Hello](hello.gif)
 
 Welcome to our project, "Chat-bot Implementation using NLP Models in an Embedded Environment", developed as a part of our coursework for the Defensive Programming course. This innovative project bridges the gap between advanced Natural Language Processing (NLP) models and the immersive world of Minecraft, creating an engaging and interactive gaming experience.
-
 Our team has successfully integrated state-of-the-art NLP models from Hugging Face into the Minecraft environment, enabling dynamic and intelligent conversations between players and the game's NPCs (Non-Player Characters). This integration is powered by a robust Flask server, which acts as a conduit between the Hugging Face models and the Java-based Minecraft game.
-
 This unique blend of technologies not only enhances the gameplay experience by allowing for more realistic and responsive interactions but also serves as a practical demonstration of the capabilities of embedded NLP models in a gaming context. 
 The project showcases the potential of modern NLP techniques in enhancing user experience in virtual environments, paving the way for more intuitive and human-like interactions in games.
-
 Through this README, we aim to provide a comprehensive guide on how our project was conceived, developed, and can be implemented by others interested in exploring the intersection of NLP and gaming. We hope this project inspires further innovation in the field and serves as a valuable learning resource for students and developers alike.
 
 ## Prerequisites
@@ -45,7 +42,7 @@ Integrating with mobs in our modification is now even simpler! Just hold down th
 - **/nlpchat disable** - Disable the listening status for NLP chat
 - **/nlpchat reset** - Resets the current settings to default
 - **/nlpchat getToken** - Retrieves the current authentication token
-- **/nlpchat setApiUrl "url"** - Sets the NLP API endpoint URL
+- **/nlpchat setApiUrl "URL"** - Sets the NLP API endpoint URL
 - **/nlpchat setToken "key" "value"** - Sets the NLP API authentication token
 - **/nlpchat help** - Display this help message"""), false);
 ## Development environment description
@@ -80,10 +77,12 @@ Here are a few suggestions that we couldn't implement due to strict project dead
 - **Integration of Speech Synthesis:** Implementing a text-to-speech (TTS) engine that converts NLP text responses into voice. 
 This would allow for more interactive and engaging in-game experiences, with mobs responding vocally to player queries.
 - **Voice Personalization:** The ability to customize voices for different types of mobs, which would enhance immersion and diversify the gaming experience.
-- **Contextual Reactions:** Developing the NLP system to allow mobs to react with different voice tones depending on the context of the interaction, e.g., friendly tones during peaceful interactions and aggressive in conflict situations.
+- **Contextual Reactions:** Developing the NLP system to allow mobs to react with different voice tones depending on the context of the interaction,
+e.g., friendly tones during peaceful interactions and aggressive in conflict situations.
 
 #### Supporting More Languages in NLP
-- **NLP Expansion:** Adding support for multiple languages in the NLP model, enabling interactions in various languages. This would increase the mod's accessibility and universality, allowing players from different regions to use it in their native language.
+- **NLP Expansion:** Adding support for multiple languages in the NLP model, enabling interactions in various languages. 
+This would increase the mod's accessibility and universality, allowing players from different regions to use it in their native language.
 - **Automatic Language Detection:** Implementing a feature for automatic detection of the language of queries, which would streamline player interactions regardless of the language used.
 
 #### Adapting to a Wider Range of APIs than Just Flask Endpoints
