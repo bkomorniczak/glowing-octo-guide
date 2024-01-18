@@ -56,3 +56,27 @@ Here is a little presentation of gameplay:
 
 ![Demo](Demo.gif)
 
+## Roadmap
+
+### Development Perspectives and Potential Improvements
+
+Our project, which combines Minecraft with Flask and NLP, offers numerous possibilities for development and enhancements. 
+Here are a few suggestions that we couldn't implement due to strict project deadlines.
+
+#### Adding Voice Responses to Mobs
+- **Integration of Speech Synthesis:** Implementing a text-to-speech (TTS) engine that converts NLP text responses into voice. 
+This would allow for more interactive and engaging in-game experiences, with mobs responding vocally to player queries.
+- **Voice Personalization:** The ability to customize voices for different types of mobs, which would enhance immersion and diversify the gaming experience.
+- **Contextual Reactions:** Developing the NLP system to allow mobs to react with different voice tones depending on the context of the interaction, e.g., friendly tones during peaceful interactions and aggressive in conflict situations.
+
+#### Supporting More Languages in NLP
+- **NLP Expansion:** Adding support for multiple languages in the NLP model, enabling interactions in various languages. This would increase the mod's accessibility and universality, allowing players from different regions to use it in their native language.
+- **Automatic Language Detection:** Implementing a feature for automatic detection of the language of queries, which would streamline player interactions regardless of the language used.
+
+#### Adapting to a Wider Range of APIs than Just Flask Endpoints
+- **Support for Various Backends:** Expanding the API configuration to allow integration with various backends, not just Flask. This would provide flexibility in choosing backend technologies and make scaling the project easier.
+- **Modular API:** Moving towards a more modular API architecture, which would allow for easy integration with new services and technologies, such as databases, cloud services, or other NLP platforms.
+- **Flexibility and Configurability:** Enabling users to configure connection parameters with different services and APIs through an in-game user interface or configuration files.
+
+
+
