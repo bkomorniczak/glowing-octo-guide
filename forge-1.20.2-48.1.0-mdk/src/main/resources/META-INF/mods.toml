@@ -2,15 +2,17 @@ modLoader="javafml"
 loaderVersion="[48,)"
 license="All rights reserved"
 [[mods]]
-modId="flasknlpchat" # Zaktualizowana nazwa modu
-version="0.3.0" # wersja modu
+modId="flasknlpchat"
+version="0.7.3"
 displayName="FlaskNLPChat"
 description='''
-Interakcja z sztuczną inteligencją w Minecraft za pomocą Flask i NLP.
+Homepage: https://github.com/bkomorniczak/glowing-octo-guide
+
+Interaction with artificial intelligence in Minecraft using Flask and NLP.
 '''
-authors="Imiona"
-credits="Podziękowania"
-logoFile="ścieżka/do/logo.png"
+authors="Rafał Gajos, Natalia Brzezińska, Barbara Komorniczak, Grzegorz Karkowski"
+credits="Special thanks to Mr. Michał Młodawski for inspiring us to create this modification."
+logoFile= "logo.png"
 
 [[dependencies.flasknlpchat]]
 modId="forge"

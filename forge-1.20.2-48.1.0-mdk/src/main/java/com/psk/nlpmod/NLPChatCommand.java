@@ -160,9 +160,13 @@ public class NLPChatCommand {
                 """
                         Commands:
                         /nlpchat - Display the main menu
-                        /nlpchat enable - Enable the NLP chat feature
-                        /nlpchat disable - Disable the NLP chat feature
-                        /nlpchat ask [query] - Ask a question to the AI
+                        /nlpchat ask "query" - Ask a question to the AI
+                        /nlpchat enable - Enable the listening status for NLP chat
+                        /nlpchat disable - Disable the listening status for NLP chat
+                        /nlpchat reset - Resets the current settings to default
+                        /nlpchat getToken - Retrieves the current authentication token
+                        /nlpchat setApiUrl "url" - Sets the NLP API endpoint URL
+                        /nlpchat setToken "key" "value" - Sets the NLP API authentication token
                         /nlpchat help - Display this help message"""), false);
     }
     private static void enableNLPChat(CommandSourceStack source) {
