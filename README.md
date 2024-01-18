@@ -86,6 +86,8 @@ This would increase the mod's accessibility and universality, allowing players f
 - **Support for Various Backends:** Expanding the API configuration to allow integration with various backends, not just Flask. This would provide flexibility in choosing backend technologies and make scaling the project easier.
 - **Modular API:** Moving towards a more modular API architecture, which would allow for easy integration with new services and technologies, such as databases, cloud services, or other NLP platforms.
 - **Flexibility and Configurability:** Enabling users to configure connection parameters with different services and APIs through an in-game user interface or configuration files.
+# Contribution
+There is a document describing contributing rules available [here](CONTRIBUTING.md)
 
 
 
