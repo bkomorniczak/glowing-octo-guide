@@ -13,7 +13,12 @@ The project showcases the potential of modern NLP techniques in enhancing user e
 Through this README, we aim to provide a comprehensive guide on how our project was conceived, developed, and can be implemented by others interested in exploring the intersection of NLP and gaming. We hope this project inspires further innovation in the field and serves as a valuable learning resource for students and developers alike.
 
 ## Prerequisites
-Before you begin the installation process, ensure that you have Java 17 installed on your system. Java 17 is essential for running the Minecraft server and the chat-bot application. If you do not have Java 17 installed, you can download it from the official Java site.
+Before you begin the installation process, ensure that you have the following installed
+- Java 17
+- Python 3.11.5
+- Minecraft 1.20.2
+- Forge 48.1.0
+
 ## Setting Up the Project
 To make the installation process as straightforward as possible, we have created a Gradle build task. This task simplifies the process, allowing you to set up and run the project with a single command. Here are the steps to get everything up and running.
 ### Clone the Repository
