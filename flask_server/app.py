@@ -112,5 +112,10 @@ def ask():
         return jsonify({"error": str(e)}), 500
 
 
+@app.route("/ask/state", methods=["GET"])
+def check_state():
+    return jsonify({"status": "OK"}), 200
+
+
 if __name__ == "__main__":
     app.run(debug=True)

@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[48,)"
+license="All rights reserved"
+[[mods]]
+modId="flasknlpchat"
+version="0.7.3"
+displayName="FlaskNLPChat"
+description='''
+Homepage: https://github.com/bkomorniczak/glowing-octo-guide
+
+Interaction with artificial intelligence in Minecraft using Flask and NLP.
+'''
+authors="Rafał Gajos, Natalia Brzezińska, Barbara Komorniczak, Grzegorz Karkowski"
+credits="Special thanks to Mr. Michał Młodawski for inspiring us to create this modification."
+logoFile= "logo_new.png"
+
+[[dependencies.flasknlpchat]]
+modId="forge"
+mandatory=true
+versionRange="[48,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.flasknlpchat]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.2]"
+ordering="NONE"
+side="BOTH"
